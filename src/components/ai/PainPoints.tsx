@@ -3,7 +3,7 @@ import { Clock3, MoonStar, PhoneMissed, Unplug, PhoneOff } from "lucide-react";
 import { pain } from "@/content/ai-automation";
 import { EASE, SplitReveal } from "./motion";
 
-const icons = [PhoneMissed, Clock3, Unplug, MoonStar];
+const icons = [PhoneMissed, Clock3, Unplug, MoonStar] as const;
 // grid placement around the central visual
 const placement = [
   "lg:col-start-1 lg:row-start-1 lg:text-right lg:items-end",
@@ -11,7 +11,7 @@ const placement = [
   "lg:col-start-1 lg:row-start-2 lg:text-right lg:items-end",
   "lg:col-start-3 lg:row-start-2",
 ];
-const from = [-70, 70, -70, 70];
+const from = [-70, 70, -70, 70] as const;
 
 function SignalVisual() {
   return (
@@ -94,11 +94,12 @@ export function PainPoints() {
             <SignalVisual />
           </div>
           {pain.points.map((point, i) => {
-            const Icon = icons[i];
+            const Icon = icons[i % icons.length] ?? PhoneMissed;
+            const fromX = from[i % from.length] ?? 0;
             return (
               <motion.div
                 key={point}
-                initial={{ opacity: 0, x: from[i], filter: "blur(10px)" }}
+                initial={{ opacity: 0, x: fromX, filter: "blur(10px)" }}
                 whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
                 viewport={{ once: true, margin: "0px 0px -10% 0px" }}
                 transition={{ duration: 1.1, ease: EASE, delay: 0.15 * i }}
