@@ -1,0 +1,352 @@
+{
+  "LINKS": {
+    "booking": "https://taibacreations.com/contact/",
+    "caseStudies": "https://taibacreations.com/portfolio/"
+  },
+  "chatbots": {
+    "title": "AI Chatbots for Quick Answers and Better Communication",
+    "body": "A useful chatbot should give your customers the answers they’re actually looking for. We build custom AI chatbots using your services, pricing, policies, FAQs, and your brand’s communication style. It’s like having a helpful team member available 24/7 to answer questions, provide the right information, and guide customers toward the next step.",
+    "items": [
+      {
+        "key": "website",
+        "title": "Website AI Chatbot",
+        "body": "When visitors have questions about your products, services, offers, or pricing, your chatbot can give them quick answers and help them find what they need.",
+        "bullets": [
+          "Answers common questions without making visitors search through your website",
+          "Guides them towards the right page, booking, enquiry or purchase",
+          "Lets your website interact with visitors and guide them in real time"
+        ]
+      },
+      {
+        "key": "messaging",
+        "title": "Messaging Chatbot",
+        "body": "This chatbot is for customers who prefer talking to businesses through messaging apps like WhatsApp, Facebook Messenger, or Instagram.",
+        "bullets": [
+          "Answers common questions about your business",
+          "Understands what the customer needs and collects their details",
+          "Connects the customer with a customer support team member if the conversation needs human interaction"
+        ]
+      },
+      {
+        "key": "voice",
+        "title": "AI Voice Agent",
+        "body": "An AI voice agent can answer customer calls and make calls to confirm orders or bookings, based on your business details and processes.",
+        "bullets": [
+          "Collects customer details",
+          "Records messages",
+          "Forwards calls to a team member when a customer needs more detailed information"
+        ]
+      }
+    ]
+  },
+  "example": {
+    "title": "Before and after: a clinic’s booking request",
+    "intro": "Here’s the same enquiry handled two ways. Both start with a patient messaging after hours.",
+    "without": {
+      "label": "Without automation",
+      "meta": "(3 manual steps, reply waits until morning)",
+      "steps": [
+        {
+          "text": "Patient messages, after hours",
+          "kind": "Trigger"
+        },
+        {
+          "text": "Front desk reads and replies, next morning",
+          "kind": "Manual step"
+        },
+        {
+          "text": "Booking added to calendar, by hand",
+          "kind": "Manual step"
+        },
+        {
+          "text": "Details typed into CRM, by hand",
+          "kind": "Manual step"
+        }
+      ],
+      "outcome": "Done next day, if nothing is missed"
+    },
+    "with": {
+      "label": "With automation",
+      "meta": "(No manual steps; team handles exceptions only)",
+      "steps": [
+        {
+          "text": "Patient messages, after hours",
+          "kind": "Trigger"
+        },
+        {
+          "text": "Chatbot answers and offers free slots",
+          "kind": "Automatic"
+        },
+        {
+          "text": "Booking made, confirmation sent",
+          "kind": "Automatic"
+        },
+        {
+          "text": "Details saved to the CRM",
+          "kind": "Automatic"
+        }
+      ],
+      "outcome": "Done, within minutes"
+    },
+    "note": "A staff member helps when the chatbot cannot handle something. The chatbot handles routine tasks and does not collect medical information.",
+    "disclaimer": "This is an illustrative example. Your process is discussed and planned during the free consultation."
+  },
+  "faqs": [
+    {
+      "q": "How much does an AI chatbot or automation project cost?",
+      "a": "The cost depends on what you need. It can change based on the channels you use, the tools you want to connect, the features needed and the number of languages. After the free consultation, you get a clear quote with setup, support and tool costs shown separately."
+    },
+    {
+      "q": "How long does it take to build?",
+      "a": "A simple chatbot or one workflow can often be ready in a few weeks. Projects that need several tools or voice features may take longer. Everything is tested before it goes live."
+    },
+    {
+      "q": "Is my customers’ data safe?",
+      "a": "We only collect the information the chatbot needs, such as names and contact details. It can also be set not to ask for sensitive information, such as payment details. Access is limited, and we help you follow the data rules that apply to your business."
+    },
+    {
+      "q": "Can the chatbot speak other languages?",
+      "a": "Yes. AI chatbots can work in many languages. The languages you need are discussed before the project starts, and each one is tested to make sure the chatbot gives good answers."
+    },
+    {
+      "q": "What if the chatbot gets something wrong?",
+      "a": "The chatbot is built around your content and tested with different questions before launch. After launch, conversations can be reviewed and any problems can be fixed."
+    },
+    {
+      "q": "Do I need technical staff or special software?",
+      "a": "No. We handle the setup and connections. You only need access to the tools you already use, such as your website or CRM, and basic information about how your business works."
+    },
+    {
+      "q": "Will customers know they’re talking to an AI?",
+      "a": "We recommend telling customers when they are speaking with AI. A simple message can make this clear. Customers can also be given an option to speak with a person when needed."
+    },
+    {
+      "q": "Can I add more later?",
+      "a": "Yes. You can start with a small project and add more features later. Each new feature is planned separately, so you only pay for what you add."
+    },
+    {
+      "q": "What should I prepare for the first call?",
+      "a": "Bring a list of your most common tasks and customer questions, along with the tools you currently use. If you have a website or FAQ page, you can share that too."
+    }
+  ],
+  "finalCta": {
+    "title": "Ready to Get Started With Your AI Employee?",
+    "body": "Book a free consultation to discuss the tasks you want your AI employee to handle and see how it can help your business.",
+    "button": "Book A Free Consultation"
+  },
+  "hero": {
+    "title": "AI Automation, Chatbots & AI Employee Systems for Less Manual Work and Faster Business Growth",
+    "body": "Missed calls and slow replies can easily turn into lost sales. At TAIBA Creations, we build AI employees, voice agents, chatbots, and automated workflows that handle customer questions, repetitive tasks, and lead follow-ups for you. This helps your team respond faster, save time, and give customers a smoother experience.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Explore Our Case Studies"
+  },
+  "industries": {
+    "title": "Industries We Help With AI Automations & AI Chatbots",
+    "body": "TAIBA Creations provides AI chatbot and automation services for businesses in different industries. If you need better customer support, more leads, easier bookings or less manual work, AI can help.",
+    "items": [
+      {
+        "key": "clinic",
+        "title": "Clinics and Healthcare Providers",
+        "body": "Clinics handle patient questions, appointment bookings, rescheduling, and regular follow-ups."
+      },
+      {
+        "key": "realestate",
+        "title": "Real Estate",
+        "body": "Real estate businesses manage property enquiries, buyer leads, viewings and follow-ups."
+      },
+      {
+        "key": "homeservices",
+        "title": "Home Services",
+        "body": "Plumbers, electricians and other home service businesses receive service requests, emergency enquiries and job details."
+      },
+      {
+        "key": "ecommerce",
+        "title": "E-commerce",
+        "body": "Online stores deal with product questions, orders, delivery requests, returns and customer support."
+      },
+      {
+        "key": "restaurant",
+        "title": "Restaurants and Hospitality",
+        "body": "Restaurants, hotels and other hospitality businesses handle bookings, menu questions, opening hours and customer enquiries."
+      },
+      {
+        "key": "professional",
+        "title": "Professional Services",
+        "body": "Law firms, accountants, consultants and other professional services manage client enquiries, appointments and regular communication."
+      },
+      {
+        "key": "saas",
+        "title": "SaaS and Tech Startups",
+        "body": "SaaS companies and tech startups handle product questions, customer support, leads, onboarding and other repeat tasks."
+      }
+    ]
+  },
+  "midCta": {
+    "title": "Not sure which tasks to automate first?",
+    "body": "Book a free consultation, and we’ll tell you where to start.",
+    "button": "Book a Free Consultation"
+  },
+  "overview": {
+    "title": "What Are AI Employees, and How Can They Help Your Business?",
+    "body": "AI employees are smart systems that can take care of everyday tasks like answering customer questions, handling calls, booking appointments, and following up with leads. They save your team time, make day-to-day operations easier, and help you stay on top of customer conversations."
+  },
+  "pain": {
+    "title": "How Missed Calls and Slow Replies Cost You Customers",
+    "points": [
+      "When several customers call together, your team cannot answer everyone, so some potential leads get missed.",
+      "An interested customer may not get a follow-up on time. When this happens, the lead can lose interest or choose another business.",
+      "Customer information is not always connected to your CRM, so your team may miss updates or spend time checking different systems.",
+      "When a visitor messages after business hours and does not get a timely reply, they may choose another business and leave a bad impression."
+    ]
+  },
+  "process": {
+    "title": "How We Turn Your Tasks Into AI Automation",
+    "steps": [
+      {
+        "n": "1.",
+        "title": "Free Consultation",
+        "body": "We talk about the repeated tasks taking up your time, the enquiries you may be missing, and the tools you already use. We then discuss which tasks can be automated and which ones may still need a person."
+      },
+      {
+        "n": "2.",
+        "title": "Plan",
+        "body": "The next step is to decide what should be automated first and how the process should work. You also get a clear timeline and cost before the work starts. Simple chatbots and single workflows can take a few weeks, while larger projects with several tools or voice features may take longer."
+      },
+      {
+        "n": "3.",
+        "title": "Build and Connect",
+        "body": "We build your AI employee and automated workflows, then connect them with your website, CRM, calendar, and other tools."
+      },
+      {
+        "n": "4.",
+        "title": "Test",
+        "body": "Everything is tested with real questions and different situations to make sure it works properly before going live."
+      },
+      {
+        "n": "5.",
+        "title": "Launch and Support",
+        "body": "We launch the automation and monitor how it works after going live. If something needs to be changed, we update the chatbot or workflow to keep it working properly as your business changes."
+      }
+    ]
+  },
+  "tools": {
+    "title": "Tools we use for AI automation and AI employee setup",
+    "body": "The right tools depend on your business, budget and the software you already use. We choose tools that suit your workflow and explain why we use them.",
+    "items": [
+      {
+        "title": "AI models",
+        "body": "The language models that understand questions and write replies, such as OpenAI GPT models, Anthropic Claude and Google Gemini."
+      },
+      {
+        "title": "Chatbot and voice platforms",
+        "body": "Where conversations are built and managed, such as Voiceflow and Botpress, and voice platforms like Vapi and Retell."
+      },
+      {
+        "title": "Automation platforms",
+        "body": "Tools that connect apps and run workflows, such as n8n, Zapier and Make. We add custom code when a platform isn’t enough."
+      },
+      {
+        "title": "CRM and sales tools",
+        "body": "HubSpot, Zoho CRM, Salesforce, GoHighLevel, and the system you already use."
+      },
+      {
+        "title": "Channels",
+        "body": "WhatsApp Business, Facebook Messenger, Instagram direct messages, SMS, and live chat on your website."
+      },
+      {
+        "title": "Calendars and data",
+        "body": "Google Calendar, Outlook, Calendly, Google Sheets and Airtable, plus your own documents loaded into a knowledge base the chatbot reads from."
+      }
+    ],
+    "names": [
+      "OpenAI GPT models",
+      "Anthropic Claude",
+      "Google Gemini",
+      "Voiceflow",
+      "Botpress",
+      "Vapi",
+      "Retell",
+      "n8n",
+      "Zapier",
+      "Make",
+      "HubSpot",
+      "Zoho CRM",
+      "Salesforce",
+      "GoHighLevel",
+      "WhatsApp Business",
+      "Facebook Messenger",
+      "SMS",
+      "Google Calendar",
+      "Outlook",
+      "Calendly",
+      "Google Sheets",
+      "Airtable"
+    ]
+  },
+  "workflows": {
+    "title": "AI Automation for Your Everyday Workflows",
+    "body": "Do you have daily tasks that you keep doing again and again? AI can handle many of these tasks automatically. TAIBA Creations sets up AI automation around the way your business works. It can move information between different tools, update records, sort incoming information, and handle other steps in your workflow.",
+    "items": [
+      {
+        "key": "leads",
+        "title": "Lead Management",
+        "body": "Make sure every new lead gets the right attention at the right time, so you don’t lose potential customers.",
+        "bullets": [
+          "Sends each enquiry to the right person or team",
+          "Follows up with leads at the right time",
+          "Keeps track of every lead and what happens next"
+        ]
+      },
+      {
+        "key": "reminders",
+        "title": "Appointment Reminders",
+        "body": "Helps customers remember their appointments and keeps your calendar up to date.",
+        "bullets": [
+          "Sends a confirmation after booking",
+          "Sends a reminder before the appointment",
+          "Keeps your calendar updated when bookings change"
+        ]
+      },
+      {
+        "key": "crm",
+        "title": "CRM Automation",
+        "body": "Keep your customer details in one place, so you don’t have to type the same information again and again.",
+        "bullets": [
+          "Collects customer details from chats, calls, and forms",
+          "Saves notes about what each customer needs",
+          "Keeps customer information up to date"
+        ]
+      },
+      {
+        "key": "forms",
+        "title": "Forms and Data Entry",
+        "body": "When a user fills out a form on your website. Their name, contact details, and request are saved automatically, so you don’t have to copy details into another system by hand.",
+        "bullets": [
+          "Saves new form submissions",
+          "Keeps customer and order details together",
+          "Sends new requests to your sales team or admin"
+        ]
+      },
+      {
+        "key": "summaries",
+        "title": "Notifications and Summaries",
+        "body": "A customer sends a long email. AI reads it, picks out the main points, and tells you if it needs a reply. It also writes a draft, so you only have to check it and send it.",
+        "bullets": [
+          "Tells you when a customer needs a reply",
+          "Turn long emails into a short summary",
+          "Writes a draft reply for you to check and send"
+        ]
+      },
+      {
+        "key": "integrations",
+        "title": "Tool Integrations",
+        "body": "We connect the tools you use in your daily workflow, so you don’t have to manually go into each tool and copy paste the data.",
+        "bullets": [
+          "Connects your CRM with email and other business tools",
+          "Links tools like Slack, WhatsApp, and Google Sheets when needed",
+          "Checks your current setup and tells you what can be connected"
+        ]
+      }
+    ]
+  }
+}
