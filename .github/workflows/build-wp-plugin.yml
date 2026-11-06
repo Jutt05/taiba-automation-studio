@@ -1,0 +1,40 @@
+name: Build WordPress plugin
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Put uploaded files into the right folders
+        run: |
+          set -e
+          W=wordpress-export
+          mkdir -p $W/src $W/scripts $W/taiba-ai-automation/includes $W/taiba-ai-automation/admin
+          [ -f vite.wp.config.ts ] && cp vite.wp.config.ts $W/vite.wp.config.ts
+          [ -f main.tsx ] && cp main.tsx $W/src/main.tsx
+          [ -f content-runtime.ts ] && cp content-runtime.ts $W/src/content-runtime.ts
+          [ -f export-content.mjs ] && cp export-content.mjs $W/scripts/export-content.mjs
+          [ -f taiba-ai-automation.php ] && cp taiba-ai-automation.php $W/taiba-ai-automation/taiba-ai-automation.php
+          [ -f default-content.json ] && cp default-content.json $W/taiba-ai-automation/default-content.json
+          for f in helpers.php frontend.php admin.php; do [ -f "$f" ] && cp "$f" $W/taiba-ai-automation/includes/$f; done
+          for f in admin.js admin.css; do [ -f "$f" ] && cp "$f" $W/taiba-ai-automation/admin/$f; done
+          find $W -type f | sort
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install --no-audit --no-fund
+      - run: npx vite build --config wordpress-export/vite.wp.config.ts
+
+      - name: Collect plugin
+        run: |
+          mkdir -p dist
+          cp -r wordpress-export/taiba-ai-automation dist/
+          ls -la dist/taiba-ai-automation/assets
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: taiba-ai-automation-plugin
+          path: dist
