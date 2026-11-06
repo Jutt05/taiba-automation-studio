@@ -25,8 +25,13 @@ jobs:
         with:
           node-version: 22
 
-      - run: npm install --no-audit --no-fund
-      - run: npx vite build --config wordpress-export/vite.wp.config.ts
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build
+        run: npx vite build --config wordpress-export/vite.wp.config.ts
 
       - name: Collect plugin
         run: |
